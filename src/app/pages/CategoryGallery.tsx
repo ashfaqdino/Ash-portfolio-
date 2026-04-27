@@ -93,7 +93,7 @@ export function CategoryGallery() {
               Design Work Showcase
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl">
-              A complete collection of my creative work
+              A selection of my work, not the full story
             </p>
             
             <div className="mt-8 flex items-center gap-4">

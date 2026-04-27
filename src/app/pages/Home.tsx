@@ -40,10 +40,10 @@ export function Home() {
             }}
             className="text-6xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-6"
           >
-            I Create
+            Refined Pixels
             <br />
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Digital Magic
+              Deliver Magical Results
             </span>
           </motion.h1>
 
@@ -53,7 +53,7 @@ export function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto p-[0px] mx-[0px] mt-[0px] mb-[48px]"
           >
-            Transforming complex challenges into simple, engaging, and measurable UI/UX solutions.
+            From requirements to branding, I create clean and useful designs that turn complicated ideas into simple, powerful solutions.
           </motion.p>
 
           <motion.div
@@ -113,19 +113,19 @@ export function Home() {
               <Mail className="w-10 h-10 text-blue-600" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Let's Start a Conversation
+              Let's Build Something Great
             </h2>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Whether you have a specific project in mind or just want to explore how I can help your brand grow, I'm always open to new opportunities.
+              Whether it's a project, collaboration, or a new role, I'm always open to discussing meaningful opportunities.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="mailto:hello@creativestudio.com"
+              <a
+                href="mailto:addinweb786@gmail.com"
                 className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-medium hover:shadow-2xl hover:shadow-blue-500/50 transition-all inline-flex items-center justify-center gap-2"
               >
                 <Mail className="w-5 h-5" />
-                hello@creativestudio.com
+                addinweb786@gmail.com
               </a>
             </div>
           </motion.div>

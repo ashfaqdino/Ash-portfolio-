@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router';
 import { motion } from 'motion/react';
+import logo from '../../imports/logo_3.png';
 
 export function Navbar() {
   const location = useLocation();
@@ -22,10 +23,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">P</span>
-            </div>
-            <span className="text-gray-900 text-xl font-semibold">Portfolio</span>
+            <img src={logo} alt="Portfolio Logo" className="h-10 w-auto" />
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
